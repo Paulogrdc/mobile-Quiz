@@ -116,5 +116,7 @@ button {
 }
 
 button:hover {
-    background-color: #e64e5b ;
+    background-color: #dd213186;
+    background-color: rgba(0, 128, 0, 0.534);
+
 }

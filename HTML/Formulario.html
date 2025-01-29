@@ -16,33 +16,36 @@
     <div class="Perguntas">
         <h3>1 - Quando acionamos a função DECK no painel de controle, com quanto por cento o joystick funciona?</h3>
         <div class="opções">
-            <label> 
+            <label id="label1"> 
                 <span class="alternativas">A</span>
                 <input type="radio" name="q1" value="A" >
-                <span> 100%</span>
+                <span id="100%" class="respostas"> 100%</span>
             </label>
              
-            <label> 
+            <label id="label2"> 
                 <span class="alternativas">B</span>
                 <input type="radio" name="q1" value="A">
-                <span>10%</span>
+                <span id="10%" class="respostas">10%</span>
             </label>
 
-            <label> 
-                <span class="alternativas">C</span>
+            <label id="label3">
+                <span class="alternativas"> C</span> 
                 <input type="radio" name="q1" value="A">
-                <span>40%</span>
+                <span id="40%" class="respostas">40%</span>
             </label> 
 
-            <label> 
+            <label id="label4"> 
                 <span class="alternativas">D</span>
                 <input type="radio" name="q1" value="A">
-                <span>60%</span>
+                <span id="60%" class="respostas">60%</span>
             </label>
         </div>
      </div>
-        <div class="button-contenier"><button>Responder</button></div>
+        <div class="button-contenier"><button onclick="verificarResposta()">Responder</button></div>
     </div>
 </div>
 </body>
+
+    <script src="/Script/javaScript.js"></script>
+
 </html>
