@@ -76,7 +76,7 @@ img {
 }
 
 .opções input[type="radio"]:checked + label span{ 
-    color: white; 
+    color:black; 
 }
 
 .opções span{ 
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: #dd213186;
+
     background-color: rgba(0, 128, 0, 0.534);
 
 }
