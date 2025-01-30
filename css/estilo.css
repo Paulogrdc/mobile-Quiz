@@ -71,12 +71,12 @@ img {
 }
 
 .opções input[type="radio"]:checked + label::before { 
-    background-color: #6c63ff;
-    border-color: #6c63ff;
+    background-color: rgb(25, 25, 253);
+    border-color: rgba(0, 0, 0, 0.521);
 }
 
-.opções input[type="radio"]:checked + label .respostas { 
-    color: white;
+.opções input[type="radio"]:checked + label span{ 
+    color: white; 
 }
 
 .opções span{ 
