@@ -9,42 +9,48 @@
 </head>
 <body>
 
-<div id="contenier"> 
-    <div class="logo">
-        <img src="/assests/WhatsApp Image 2024-12-27 at 10.26.55.jpeg" alt="">
-    </div>  
-
-    <div class="Perguntas">
+    <div id="contenier"> 
+        <div class="logo">
+            <img src="/assests/WhatsApp Image 2024-12-27 at 10.26.55.jpeg" alt="">
+        </div>  
         <h3>1 - Quando acionamos a função DECK no painel de controle, com quanto por cento o joystick funciona?</h3>
+
         <div class="opções">
-            <label id="label1"> 
+            <input type="radio" name="q1" id="opcão1" value="100">
+            <label id="label1" for="opcão1"> 
                 <span class="alternativas">A</span>
-                <input type="radio" name="q1" value="A" >
                 <span id="100%" class="respostas"> 100%</span>
             </label>
-             
-            <label id="label2"> 
+        </div>
+        
+        <div class="opções">
+            <input type="radio" name="q1" id="opcão2" value="10">
+            <label id="label2" for="opcão2"> 
                 <span class="alternativas">B</span>
-                <input type="radio" name="q1" value="A">
                 <span id="10%" class="respostas">10%</span>
             </label>
-
-            <label id="label3">
+        </div> 
+        
+        <div class="opções">
+            <input type="radio" name="q1" id="opcão3" value="40">
+            <label id="label3" for="opcão3">
                 <span class="alternativas"> C</span> 
-                <input type="radio" name="q1" value="A">
                 <span id="40%" class="respostas">40%</span>
             </label> 
+        </div>
 
-            <label id="label4"> 
+        <div class="opções">
+            <input type="radio" name="q1" id="opcão4" value="60">
+            <label id="label4" for="opcão4"> 
                 <span class="alternativas">D</span>
-                <input type="radio" name="q1" value="A">
                 <span id="60%" class="respostas">60%</span>
             </label>
         </div>
-     </div>
-        <div class="button-contenier"><button onclick="verificarResposta()">Responder</button></div>
+
+        <div 
+        class="button-contenier"><button onclick="verificarResposta()">Responder</button>
+        </div>
     </div>
-</div>
 </body>
 
     <script src="/Script/javaScript.js"></script>

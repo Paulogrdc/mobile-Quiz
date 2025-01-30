@@ -1,9 +1,16 @@
-@media (min-width: 500px) and (max-width:1370) { 
+@media (min-width: 495px) and (max-width:1000px) { 
+
+    .contenier { 
+        height: 75%;
+    }
     
 }
 
 
-@media (min-width: 1370) and (max-width:1366) {
+@media (max-width:1365px) { 
+    body { 
+        background-color: white;
+    }
     
 }
 
