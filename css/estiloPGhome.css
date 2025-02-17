@@ -12,6 +12,11 @@ body {
     position: relative;
 } 
 
+.logo-tech {
+    position: relative;
+    left: -500px;
+    display: none;
+}
 
 img {
     width: 400px;
@@ -20,7 +25,6 @@ img {
     left: 550px;
     top: -60px;
 }
-
 .contenier{
     width: 505px;
     height: 350px;
@@ -84,4 +88,68 @@ img {
         background-color: #d92b3a;
         padding: 10px 20px;
     }
+}
+
+
+@media screen and (max-width: 768px)  {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-image: none; 
+
+    }
+
+    .img-deslocada { 
+        display: none;
+    }
+    img { 
+        border-radius: 100%;
+    }
+
+    .logo-tech {
+        display: block;
+    }
+
+    .contenier { 
+    width: 500x;
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+    .contenier h2 { 
+        font-size:30px;
+    }
+
+    .contenier p {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 45px;
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    @keyframes flash{
+        0% {
+            background-color: #d92b3a;
+            padding: 5px 10px;
+        }
+        50%{
+            background-color: #a60310;
+            padding: 10px 20px;
+        }
+        100% {
+            background-color: #d92b3a;
+            padding: 5px 10px;
+        }
+    }
+
+    
 }

@@ -1,13 +1,5 @@
-@media (min-width: 495px) and (max-width:1000px) { 
-
-    .contenier { 
-        height: 80%;
+@media screen and (max-width: 768px) { 
+    .contenier h3 { 
+        font-size: 10px;
     }
-    
 }
-
-
-@media (max-width:1365px) {
-    
-}
-
